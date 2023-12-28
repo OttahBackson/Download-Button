@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 750px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 150px 0 150px;
+    background: #b4b4b4;
+}
+.btn{
+    padding: 20px 35px;
+    background: #22ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+.btn:hover{
+    background: #2382f6;
+}
+.btn i{
+    margin-right: 10px;
+}
+.btn.active-timer{
+    color: #333;
+    background: none;
+    box-shadow: none;
+    font-size: 1.7rem;
+    pointer-events: none;
+    transition: none;
+}
+.btn.active-timer b{
+    color: #2382f6;
+    padding: 0 6px;
+}
